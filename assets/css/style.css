@@ -458,6 +458,25 @@ article.active {
   );
 }
 
+.client-bg {
+  background: var(--bg-gradient-onyx);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-bg img {
+  background: transparent;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 
 
 
@@ -1019,11 +1038,9 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: none;
   transition: var(--transition-1);
 }
-
-.clients-item img:hover { filter: grayscale(0); }
 
 
 
