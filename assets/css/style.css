@@ -468,6 +468,10 @@ article.active {
   justify-content: center;
 }
 
+[data-theme="light"] .client-bg {
+  background: linear-gradient(135deg, #e3eafc 0%, #f8fafc 100%);
+}
+
 .client-bg img {
   background: transparent;
   border-radius: 8px;
